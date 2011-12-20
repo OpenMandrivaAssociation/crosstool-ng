@@ -7,7 +7,7 @@ Summary:	Crosstool-NG aims at building toolchains
 Source0:	%{name}-%{version}.tar.bz2
 Requires:	awk, sed, bison, flex, autoconf, automake
 BuildRequires:	curl-devel
-BuildRequires:	bison
+BuildRequires:	bison flex
 
 %description
 crosstool-NG aims at building toolchains. Toolchains are an essential component in a software development project. It will compile,
