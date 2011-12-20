@@ -6,7 +6,7 @@ Group:		Development/C
 Summary:	Crosstool-NG aims at building toolchains
 Source0:	%{name}-%{version}.tar.bz2
 Requires:	awk, sed, bison, flex, autoconf, automake
-BuildRequires:	fdupes curl-devel
+BuildRequires:	curl-devel
 
 %description
 crosstool-NG aims at building toolchains. Toolchains are an essential component in a software development project. It will compile,
@@ -33,7 +33,6 @@ binary/ies: static libraries are but an example.
 
 %install
 %makeinstall_std
-#f dupes %{buildroot}
 
 %files
 %dir %{_libdir}/ct-ng-%{version}
