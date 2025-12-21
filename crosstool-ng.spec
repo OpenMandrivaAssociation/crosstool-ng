@@ -6,6 +6,11 @@ Group:		Development/C
 Summary:	Crosstool-NG aims at building toolchains
 Source0:	%{name}-%{version}.tar.bz2
 Requires:	awk, sed, bison, flex, autoconf, automake
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	curl-devel ncurses-devel
 BuildRequires:	bison flex texinfo libtool
 
